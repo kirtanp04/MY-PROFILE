@@ -14,8 +14,8 @@ const Seo = ({title,desc}) => {
       <meta name="description" content={desc} />
       <meta property="og:description" content={desc} />
       <meta name="twitter:description" content={desc}/>
-      <meta name="author" content="Kirtan Patel"></meta>
-      <meta name="keyword" content="portfolio, javascript, web developer, full stack developer,frontend developer, React , html, css, mern stack"></meta>
+      <meta name="author" content="Kirtan Patel"/>
+      <meta name="keyword" content="portfolio, javascript, web developer, full stack developer,frontend developer, React , html, css, mern stack"/>
     </Helmet>
     </>
   )

@@ -66,20 +66,15 @@ export const links = [
 export const personalInfo = [
   {
     id: 1,
-    title: 'First Name : ',
-    description: 'Kirtan',
+    title: 'Name : ',
+    description: 'Kirtan Patel',
   },
 
-  {
-    id: 2,
-    title: 'Last Name : ',
-    description: 'Patel',
-  },
-
+ 
   {
     id: 3,
-    title: 'Age : ',
-    description: '21 Years',
+    title: 'D.O.B : ',
+    description: '04/12/2001',
   },
 
   {
@@ -97,13 +92,13 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Anand, Gujarat, INDIA',
+    description: 'Anand, Gujarat, India',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+917984484483',
+    description: '+91 7984484483',
   },
 
   {
@@ -169,7 +164,7 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2019-2023',
-    title: 'Engineering Degree (BTech)',
+    title: 'Engineering Degree',
     desc: 'I have completed my Bachelor degree from Madhuben and Bhanubhai Patel Institute of technology in Information technology, secured 7.72 CGPA. ',
   },
 

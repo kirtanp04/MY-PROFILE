@@ -50,6 +50,7 @@
     top: -50%;
     left: -83%;
     transform: rotate(-15deg);
+    z-index: -2;
 }
 
 .animation{
@@ -57,6 +58,9 @@
     font-family: var(--second-font);
     font-weight: var(--weight-700);
     font-size: 30px;
+}
+.home__img{
+    z-index: -1;
 }
 
 @media only screen and (max-width: 768px) {
@@ -98,6 +102,9 @@
         height: 50px;
         margin-top: -12px;
     }
+    .animation{
+        font-size: 20px;
+    }
   }
   @media only screen and (max-width: 412px){
     .home__img{
@@ -119,6 +126,9 @@
         width: 90%;
         margin-top: 30px;
     }
+    .animation{
+        font-size: 15px;
+    }
   }
   @media only screen and (max-width: 375px){
     .home__title{
@@ -130,6 +140,9 @@
     }
     .home__description{
         font-size: 10px;
+    }
+    .animation{
+        font-size: 13px;
     }
   }
   @media only screen and (max-width: 320px){
@@ -157,5 +170,8 @@
         justify-content: center;
         text-align: center;
         display: flex;
+    }
+    .animation{
+        font-size: 11px;
     }
 }

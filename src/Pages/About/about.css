@@ -31,11 +31,11 @@
     padding: 20px 30px 25px;
     border-radius: 5px;
 }
-.stats__no{
+/* .stats__no{
     color: var(--first-color);
     font-size: var(--h1-font-size);
     line-height: 1.2;
-}
+} */
 
 .stats__title{
     font-size: var(--small-font-size);
@@ -175,7 +175,7 @@
     
 }
 
-@media only screen and (max-width: 412px){
+@media only screen and (max-width: 414px){
     .section__subtitle{
         font-size: 20px;
     }
@@ -190,7 +190,8 @@
         
     }
     .info__list .info__description{
-        font-size: 8px;
+        font-size: 9px;
+        line-height: 0;
     }
     .about__container .button{
         position: absolute;
@@ -228,14 +229,43 @@
 }
 @media only screen and (max-width: 412px){
     .resume__date{
-        padding: 3px;
-        font-size: 9px;
+        padding: 5px;
+        font-size: 11px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
     }
     .resume__subtitle{
-        font-size: 7px;
+        font-size: 10px;
+        display: flex;
+    justify-content: center;
     }
-    .resume__description{
-        font-size: 6px;
+    .resume__description p{
+        margin-bottom: 0;
+    }
+    .resume__item:not(:last-child){
+        margin-bottom: 0;
+    }
+    .resume__item{
+        padding-left: 0;
+        
+    }
+    /* updated */
+    .resume__container{
+        margin: 20px;
+    }
+    .resume__icon{
+        font-size: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 2px;
+    }
+    .resume__item::before{
+        display: none;
     }
 }
 @media only screen and (max-width: 375px){
@@ -249,6 +279,9 @@
         justify-content: center;
         align-self: center;
         text-align: center;
+    }
+    .resume__subtitle{
+        font-size: 8px;
     }
    
 }
@@ -275,6 +308,22 @@
         
     }
     .info__list .info__description{
+        font-size: 6px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .resume__icon{
+        font-size: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    top: 2px;
+    left: 2px;
+    }
+    .resume__subtitle{
         font-size: 6px;
     }
 }
